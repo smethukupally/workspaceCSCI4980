@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_IMpGcKsKEeiCC_pd5tH2gg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_O7uNkKsKEeiCC_pd5tH2gg" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_hEJLgKsKEeiCC_pd5tH2gg" elementId="project0828-helloplugin-sainath.command.showhelloworld" commandName="Show Hello World"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_uEFMsKsKEeiCC_pd5tH2gg" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_y_KmoKsKEeiCC_pd5tH2gg" elementId="project0828-helloplugin-sainath.menucontribution.0">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_8-XasKsKEeiCC_pd5tH2gg" elementId="project0828-helloplugin-sainath.handledmenuitem.showhelloworld" label="Show Hello World" command="_hEJLgKsKEeiCC_pd5tH2gg"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_tH9tQKsLEeiCC_pd5tH2gg" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_zOe_kKsLEeiCC_pd5tH2gg" elementId="project0828-helloplugin-sainath.handler.0" contributionURI="bundleclass://project0828-helloplugin-sainath/ShowHelloWorldHandler" command="_hEJLgKsKEeiCC_pd5tH2gg"/>
+  </fragments>
+</fragment:ModelFragments>

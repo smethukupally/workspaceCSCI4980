@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ZU-0YKyfEei_lvu5yu6_Jw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_beF18KyfEei_lvu5yu6_Jw" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_k-AtAKyfEei_lvu5yu6_Jw" elementId="project0830-part-descriptor-methukupally.command.showhellopartdescriptor" commandName="Show Hello Part Descriptor"/>
+    <elements xsi:type="commands:Command" xmi:id="_pSVo8KyfEei_lvu5yu6_Jw" elementId="project0830-part-descriptor-methukupally.command.clearpartdescriptor" commandName="Clear Part Descriptor"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_rljBsKyfEei_lvu5yu6_Jw" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_xAJCIKyfEei_lvu5yu6_Jw" elementId="project0830-part-descriptor-methukupally.partdescriptor.viewpartdescriptor" label="View Part Descriptor" contributionURI="bundleclass://project0830-part-descriptor-methukupally/project0830partdescriptormethukupally.ViewPartDescriptor">
+      <handlers xmi:id="_Ej6jwKygEei_lvu5yu6_Jw" elementId="project0830-part-descriptor-methukupally.handler.0" contributionURI="bundleclass://project0830-part-descriptor-methukupally/ShowHelloPartDescriptorHandler" command="_k-AtAKyfEei_lvu5yu6_Jw"/>
+      <handlers xmi:id="_Py_EQKygEei_lvu5yu6_Jw" elementId="project0830-part-descriptor-methukupally.handler.1" contributionURI="bundleclass://project0830-part-descriptor-methukupally/ClearPartDescriptorHandler" command="_pSVo8KyfEei_lvu5yu6_Jw"/>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_3D0UcKyiEei_lvu5yu6_Jw" elementId="project0830-part-descriptor-methukupally.popupmenu.popupmenu" label="popupmenu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_66gSIKyiEei_lvu5yu6_Jw" elementId="project0830-part-descriptor-methukupally.handledmenuitem.showhello" label="Show Hello" command="_k-AtAKyfEei_lvu5yu6_Jw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_9aVxoKyiEei_lvu5yu6_Jw" elementId="project0830-part-descriptor-methukupally.handledmenuitem.clear" label="Clear" command="_pSVo8KyfEei_lvu5yu6_Jw"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

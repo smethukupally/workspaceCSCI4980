@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_NJy0sKcfEeiOD9TIWsq85w">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_N-KQ4KcfEeiOD9TIWsq85w" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_f0gAUKcfEeiOD9TIWsq85w" elementId="project0823-mainmenu-sai.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_tT0sMKcfEeiOD9TIWsq85w" elementId="project0823-mainmenu-sai.menu.mymainmenu" label="My Main Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_uJTisKcfEeiOD9TIWsq85w" elementId="project0823-mainmenu-sai.handledmenuitem.mymainmenuitemone" label="My Menu item One"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_CLVGkKcgEeiOD9TIWsq85w" elementId="project0823-mainmenu-sai.handledmenuitem.mymenuitemtwo" label="My Menu item two"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
