@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="__ADgkL0cEeinjPrKP9jgJw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="___x4ML0cEeinjPrKP9jgJw" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_I4vc8L0dEeinjPrKP9jgJw" elementId="project0920-add-delete-methukupally.command.addperson" commandName="Add person"/>
+    <elements xsi:type="commands:Command" xmi:id="_MZSLgL0dEeinjPrKP9jgJw" elementId="project0920-add-delete-methukupally.command.deleteperson" commandName="Delete Person"/>
+    <elements xsi:type="commands:Command" xmi:id="_4OkJML0dEeinjPrKP9jgJw" elementId="project0920-add-delete-methukupally.command.export" commandName="Export"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_OvKdwL0dEeinjPrKP9jgJw" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_jXkvkL1GEeinjPrKP9jgJw" elementId="project0920-add-delete-methukupally.handler.0" contributionURI="bundleclass://project0920-add-delete-methukupally/handler.AddPersonHandler" command="_I4vc8L0dEeinjPrKP9jgJw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_m5NqUL1GEeinjPrKP9jgJw" elementId="project0920-add-delete-methukupally.handler.1" contributionURI="bundleclass://project0920-add-delete-methukupally/handler.DeletePersonHandler" command="_MZSLgL0dEeinjPrKP9jgJw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_pxHEgL1GEeinjPrKP9jgJw" elementId="project0920-add-delete-methukupally.handler.2" contributionURI="bundleclass://project0920-add-delete-methukupally/handler.ExportPersonHandler" command="_4OkJML0dEeinjPrKP9jgJw"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_7TxmoL0dEeinjPrKP9jgJw" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="__ErFYL0dEeinjPrKP9jgJw" elementId="project0920-add-delete-methukupally.partdescriptor.simpletableaddingdeleting" label="Simple Table Adding Deleting" contributionURI="bundleclass://project0920-add-delete-methukupally/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_pneukL0eEeinjPrKP9jgJw" elementId="project0920-add-delete-methukupally.popupmenu.addperson" label="MyPopupMneu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_ZXQ1UL1TEeiLwOpNOeZufQ" elementId="project0920-add-delete-methukupally.handledmenuitem.addperson" label="Add Person" command="_I4vc8L0dEeinjPrKP9jgJw"/>
+      </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_rkhqEL0eEeinjPrKP9jgJw" elementId="project0920-add-delete-methukupally.popupmenu.deleteperson" label="Delete Person">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_bywnYL1TEeiLwOpNOeZufQ" elementId="project0920-add-delete-methukupally.handledmenuitem.deleteperson" label="Delete Person" command="_MZSLgL0dEeinjPrKP9jgJw"/>
+      </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_txZKQL0eEeinjPrKP9jgJw" elementId="project0920-add-delete-methukupally.popupmenu.export" label="Export">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_NCBksL1YEeiLwOpNOeZufQ" elementId="project0920-add-delete-methukupally.handledmenuitem.export" label="Export" command="_4OkJML0dEeinjPrKP9jgJw"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
