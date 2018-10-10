@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_Zm748MwNEei5J-n2h0GPLQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_cAkCwMwNEei5J-n2h0GPLQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_j4OikMwNEei5J-n2h0GPLQ" elementId="project1009-type-ast-rename-smethukupally.command.refresh" commandName="Refresh"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_mOcMAMwNEei5J-n2h0GPLQ" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_obWIcMwNEei5J-n2h0GPLQ" elementId="project1009-type-ast-rename-smethukupally.partdescriptor.simpletableast" label="SimpleTableAST" iconURI="platform:/plugin/project1009-type-ast-rename-smethukupally/icons/sample.png" contributionURI="bundleclass://project1009-type-ast-rename-smethukupally/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_0fYiEMwNEei5J-n2h0GPLQ" elementId="project1009-type-ast-rename-smethukupally.popupmenu.mypopupmenu" label="My popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_4NBRcMwNEei5J-n2h0GPLQ" elementId="project1009-type-ast-rename-smethukupally.handledmenuitem.refresh" label="Refresh" command="_j4OikMwNEei5J-n2h0GPLQ"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_5pQl8MwNEei5J-n2h0GPLQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_97i6gMwNEei5J-n2h0GPLQ" elementId="project1009-type-ast-rename-smethukupally.handler.0" contributionURI="bundleclass://project1009-type-ast-rename-smethukupally/handler.TableRefreshHandler" command="_j4OikMwNEei5J-n2h0GPLQ"/>
+  </fragments>
+</fragment:ModelFragments>
