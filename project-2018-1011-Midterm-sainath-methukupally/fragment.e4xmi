@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ybNG4M2ZEeivq9jICjez2w">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_1EYIkM2ZEeivq9jICjez2w" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_43OvIM2ZEeivq9jICjez2w" elementId="project-2018-1011-midterm-sainath-methukupally.partdescriptor.simpletableview20181011midtermsainathmethukupally" label="Simple Table View 2018 1011 Midterm sainath Methukupally" iconURI="platform:/plugin/project-2018-1011-Midterm-sainath-methukupally/icons/sample.png" contributionURI="bundleclass://project-2018-1011-Midterm-sainath-methukupally/view.MyTableViewer">
+      <menus xmi:id="_G8P6UM2gEeivq9jICjez2w" elementId="project-2018-1011-midterm-sainath-methukupally.menu.mymenu" label="My menu"/>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_nRSSgM2hEeivq9jICjez2w" elementId="project-2018-1011-midterm-sainath-methukupally.popupmenu.menu" label="Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_pFR_sM2hEeivq9jICjez2w" elementId="project-2018-1011-midterm-sainath-methukupally.handledmenuitem.exportselectedrows" label="Export Selected Rows" command="_EVIHEM2gEeivq9jICjez2w"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_rwN78M2hEeivq9jICjez2w" elementId="project-2018-1011-midterm-sainath-methukupally.handledmenuitem.movetop" label="Move Top" command="_M4Rz4M2gEeivq9jICjez2w"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="__i0OoM2fEeivq9jICjez2w" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_EVIHEM2gEeivq9jICjez2w" elementId="project-2018-1011-midterm-sainath-methukupally.command.export" commandName="Export"/>
+    <elements xsi:type="commands:Command" xmi:id="_M4Rz4M2gEeivq9jICjez2w" elementId="project-2018-1011-midterm-sainath-methukupally.command.movetop" commandName="Move Top"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Rz71kM2gEeivq9jICjez2w" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_Uz_tQM2gEeivq9jICjez2w" elementId="project-2018-1011-midterm-sainath-methukupally.handler.0" contributionURI="bundleclass://project-2018-1011-Midterm-sainath-methukupally/handler.ExportPersonHandler" command="_EVIHEM2gEeivq9jICjez2w"/>
+    <elements xsi:type="commands:Handler" xmi:id="__X-lsM2hEeivq9jICjez2w" elementId="project-2018-1011-midterm-sainath-methukupally.handler.1" contributionURI="bundleclass://project-2018-1011-Midterm-sainath-methukupally/handler.MoveTopHandler" command="_M4Rz4M2gEeivq9jICjez2w"/>
+  </fragments>
+</fragment:ModelFragments>
